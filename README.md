@@ -14,3 +14,8 @@ Dynamic Programming: The ith position at word1, the j th position at word2:
    Dynamic Programming: define num(i, j) is the lengh of longest common subsequence of the sub string A(0 - i) and sub string B(0 - j)   
                         If A[i] == B[j]: num(i,j) = max(num(i - 1,j - 1) + 1, num(i - 1, j), num(i, j - 1))   
                         Else: num(i,j) = max(num(i - 1,j - 1), num(i - 1, j), num(i, j - 1)) 
+###4 ReOrderList     
+   Get the middle point;        
+   Reverse the latter half;      
+   Merge two LinkedLists        
+   
